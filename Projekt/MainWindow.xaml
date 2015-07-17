@@ -1,0 +1,203 @@
+﻿<Window x:Class="Projekt.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:local="clr-namespace:Projekt" 
+        Loaded="MainWindow_Loaded"
+        Title="Temat 14" 
+        Height="515" 
+        Width="806" 
+        ResizeMode="NoResize">
+<!--
+    <Window.Resources>
+
+        <local:DaneFormularza x:Key="DaneFormularza">
+        </local:DaneFormularza>
+
+        <Style 
+            x:Key="komunikatyStyl" 
+            TargetType="{x:Type GridViewColumnHeader}">
+
+            <Setter 
+                Property="Visibility" 
+                Value="Collapsed">
+            </Setter>
+
+        </Style>
+
+        <Style 
+            x:Key="ErrorStyle" 
+            TargetType="Control">
+
+            <Style.Triggers>
+
+                <Trigger 
+                    Property="Validation.HasError" 
+                    Value="True">
+
+                    <Setter Property="ToolTip"
+                            Value="{Binding RelativeSource={x:Static RelativeSource.Self}, 
+                            Path=(Validation.Errors)[0].ErrorContent}">
+                    </Setter>
+
+                </Trigger>
+
+            </Style.Triggers>
+
+        </Style>
+
+    </Window.Resources>
+-->
+    <Grid>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="37*"/>
+            <ColumnDefinition Width="317*"/>
+            <ColumnDefinition Width="416*"/>
+            <ColumnDefinition Width="30*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="32*"/>
+            <RowDefinition Height="453*"/>
+        </Grid.RowDefinitions>
+
+        <Label 
+            Content="Podaj adres strony:" 
+            Grid.Column="1" 
+            HorizontalAlignment="Left" 
+            Grid.Row="1" 
+            VerticalAlignment="Top" 
+            Height="26"
+            Width="111">
+        </Label>
+        <!-- Style="{StaticResource ErrorStyle}" 
+            TextChanged="adresStrony_TextChanged" 
+        -->
+        <TextBox 
+            Name="adresStrony" 
+            
+            Grid.Column="1" 
+            HorizontalAlignment="Left" 
+            Height="23" 
+            Margin="0,26,0,0" 
+            Grid.Row="1" 
+            TextWrapping="Wrap" 
+            VerticalAlignment="Top" 
+            Width="360" 
+            KeyDown="adresStrony_KeyDown" 
+            Text="http://chojnice24.pl/" 
+            Grid.ColumnSpan="2">
+ <!--
+            <TextBox.Text>
+               <Binding 
+                    Source="{StaticResource DaneFormularza}" 
+                    Path="AdresStrony" 
+                    UpdateSourceTrigger="Explicit">
+                    <Binding.ValidationRules>
+                        <ExceptionValidationRule>
+
+                        </ExceptionValidationRule>
+                    </Binding.ValidationRules>
+                </Binding>
+            </TextBox.Text>
+-->
+        </TextBox>
+
+
+        <Button  
+            Name="buttonZnajdz" 
+            Content="Znajdź" 
+            Grid.Column="2" 
+            HorizontalAlignment="Left" 
+            Margin="48,26,0,0" 
+            Grid.Row="1" 
+            VerticalAlignment="Top" 
+            Width="77" 
+            Click="buttonZnajdz_Click" 
+            Height="22">
+        </Button>
+
+        <Button 
+            IsEnabled="False" 
+            Name="pobierzWszystkie" 
+            Content="Pobierz wszystkie" 
+            Grid.Column="2" 
+            HorizontalAlignment="Left" 
+            Margin="239,26,0,0" 
+            Grid.Row="1" 
+            VerticalAlignment="Top" 
+            Width="167"
+            Click="pobierzWszystkie_Click">
+        </Button>
+
+        <Button 
+            Content="Wyczyść" 
+            Name="wyczysc" 
+            Grid.Column="2" 
+            HorizontalAlignment="Left" 
+            Margin="130,27,0,0" 
+            Grid.Row="1" 
+            VerticalAlignment="Top" 
+            Width="104" 
+            Click="wyczysc_Click">
+        </Button>
+
+
+        <ListView  
+            Name="listViewWyniki"
+            HorizontalAlignment="Left" 
+            Height="337" 
+            Margin="0,83,0,0" 
+            Grid.Row="1" 
+            VerticalAlignment="Top" 
+            Width="723" 
+            Grid.ColumnSpan="2"
+            Grid.Column="1">
+
+            <ListView.View>
+
+                <GridView>
+                    <GridViewColumn 
+                        Header="Domena" 
+                        Width="200" 
+                        DisplayMemberBinding="{Binding Domena}">
+                    </GridViewColumn>
+                    <GridViewColumn 
+                        Header="Nazwa" 
+                        Width="200" 
+                        DisplayMemberBinding="{Binding Nazwa}">
+                    </GridViewColumn>
+                    <GridViewColumn 
+                        Header="Typ" 
+                        Width="100" 
+                        DisplayMemberBinding="{Binding Typ}">
+                    </GridViewColumn>
+                    <GridViewColumn 
+                        Header="Rozmiar" 
+                        Width="100" 
+                        DisplayMemberBinding="{Binding Rozmiar}">
+                    </GridViewColumn>
+                    <GridViewColumn 
+                        Header="Pobierz" 
+                        Width="100">
+
+                        <GridViewColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button 
+                                    Content="Pobierz"
+                                    Click="Button_Click">
+                                </Button>
+                            </DataTemplate>
+                        </GridViewColumn.CellTemplate>
+
+                    </GridViewColumn>
+
+                </GridView>
+
+            </ListView.View>
+
+        </ListView>
+
+    </Grid>
+
+</Window>

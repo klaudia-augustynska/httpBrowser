@@ -1,0 +1,32 @@
+C:\Users\Klaudynka\Dysk Google\studia\programowanie iii\projekt\Projekt\Projekt\bin\Release\Projekt.exe.config
+C:\Users\Klaudynka\Dysk Google\studia\programowanie iii\projekt\Projekt\Projekt\bin\Release\Projekt.exe
+C:\Users\Klaudynka\Dysk Google\studia\programowanie iii\projekt\Projekt\Projekt\bin\Release\Projekt.pdb
+C:\Users\Klaudynka\Dysk Google\studia\programowanie iii\projekt\Projekt\Projekt\obj\Release\Projekt.csprojResolveAssemblyReference.cache
+C:\Users\Klaudynka\Dysk Google\studia\programowanie iii\projekt\Projekt\Projekt\obj\Release\MainWindow.g.cs
+C:\Users\Klaudynka\Dysk Google\studia\programowanie iii\projekt\Projekt\Projekt\obj\Release\App.g.cs
+C:\Users\Klaudynka\Dysk Google\studia\programowanie iii\projekt\Projekt\Projekt\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\Klaudynka\Dysk Google\studia\programowanie iii\projekt\Projekt\Projekt\obj\Release\Projekt_MarkupCompile.cache
+C:\Users\Klaudynka\Dysk Google\studia\programowanie iii\projekt\Projekt\Projekt\obj\Release\Projekt_MarkupCompile.lref
+C:\Users\Klaudynka\Dysk Google\studia\programowanie iii\projekt\Projekt\Projekt\obj\Release\MainWindow.baml
+C:\Users\Klaudynka\Dysk Google\studia\programowanie iii\projekt\Projekt\Projekt\obj\Release\Projekt.g.resources
+C:\Users\Klaudynka\Dysk Google\studia\programowanie iii\projekt\Projekt\Projekt\obj\Release\Projekt.Properties.Resources.resources
+C:\Users\Klaudynka\Dysk Google\studia\programowanie iii\projekt\Projekt\Projekt\obj\Release\Projekt.csproj.GenerateResource.Cache
+C:\Users\Klaudynka\Dysk Google\studia\programowanie iii\projekt\Projekt\Projekt\obj\Release\Projekt.exe
+C:\Users\Klaudynka\Dysk Google\studia\programowanie iii\projekt\Projekt\Projekt\obj\Release\Projekt.pdb
+C:\Users\Klaudynka\Dysk Google\studia\programowanie iii\projekt\Projekt\Projekt\obj\Release\progresbar.baml
+C:\Users\Klaudynka\Dysk Google\studia\programowanie iii\projekt\Projekt\Projekt\obj\Release\progresbar.g.cs
+C:\Users\klaudia\Dysk Google\studia\2 rok\programowanie iii (C#)\projekt\Projekt\Projekt\bin\Release\Projekt.exe.config
+C:\Users\klaudia\Dysk Google\studia\2 rok\programowanie iii (C#)\projekt\Projekt\Projekt\obj\Release\Projekt.exe
+C:\Users\klaudia\Dysk Google\studia\2 rok\programowanie iii (C#)\projekt\Projekt\Projekt\obj\Release\Projekt.pdb
+C:\Users\klaudia\Dysk Google\studia\2 rok\programowanie iii (C#)\projekt\Projekt\Projekt\bin\Release\Projekt.exe
+C:\Users\klaudia\Dysk Google\studia\2 rok\programowanie iii (C#)\projekt\Projekt\Projekt\bin\Release\Projekt.pdb
+C:\Users\klaudia\Dysk Google\studia\2 rok\programowanie iii (C#)\projekt\Projekt\Projekt\obj\Release\Projekt.csprojResolveAssemblyReference.cache
+C:\Users\klaudia\Dysk Google\studia\2 rok\programowanie iii (C#)\projekt\Projekt\Projekt\obj\Release\MainWindow.g.cs
+C:\Users\klaudia\Dysk Google\studia\2 rok\programowanie iii (C#)\projekt\Projekt\Projekt\obj\Release\App.g.cs
+C:\Users\klaudia\Dysk Google\studia\2 rok\programowanie iii (C#)\projekt\Projekt\Projekt\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\klaudia\Dysk Google\studia\2 rok\programowanie iii (C#)\projekt\Projekt\Projekt\obj\Release\Projekt_MarkupCompile.cache
+C:\Users\klaudia\Dysk Google\studia\2 rok\programowanie iii (C#)\projekt\Projekt\Projekt\obj\Release\Projekt_MarkupCompile.lref
+C:\Users\klaudia\Dysk Google\studia\2 rok\programowanie iii (C#)\projekt\Projekt\Projekt\obj\Release\MainWindow.baml
+C:\Users\klaudia\Dysk Google\studia\2 rok\programowanie iii (C#)\projekt\Projekt\Projekt\obj\Release\Projekt.g.resources
+C:\Users\klaudia\Dysk Google\studia\2 rok\programowanie iii (C#)\projekt\Projekt\Projekt\obj\Release\Projekt.Properties.Resources.resources
+C:\Users\klaudia\Dysk Google\studia\2 rok\programowanie iii (C#)\projekt\Projekt\Projekt\obj\Release\Projekt.csproj.GenerateResource.Cache

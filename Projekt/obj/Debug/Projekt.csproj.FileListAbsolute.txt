@@ -1,0 +1,7 @@
+C:\Users\Klaudynka\Dysk Google\studia\programowanie iii\projekt\Projekt\Projekt\bin\Debug\Projekt.exe.config
+C:\Users\Klaudynka\Dysk Google\studia\programowanie iii\projekt\Projekt\Projekt\obj\Debug\Projekt.csprojResolveAssemblyReference.cache
+C:\Users\Klaudynka\Dysk Google\studia\programowanie iii\projekt\Projekt\Projekt\obj\Debug\MainWindow.g.cs
+C:\Users\Klaudynka\Dysk Google\studia\programowanie iii\projekt\Projekt\Projekt\obj\Debug\App.g.cs
+C:\Users\Klaudynka\Dysk Google\studia\programowanie iii\projekt\Projekt\Projekt\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Klaudynka\Dysk Google\studia\programowanie iii\projekt\Projekt\Projekt\obj\Debug\Projekt_MarkupCompile.cache
+C:\Users\Klaudynka\Dysk Google\studia\programowanie iii\projekt\Projekt\Projekt\obj\Debug\Projekt_MarkupCompile.lref
