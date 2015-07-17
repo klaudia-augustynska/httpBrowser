@@ -79,6 +79,7 @@ namespace Projekt
         {
             if (e.Key == Key.Return)
             {
+                buttonZnajdz.IsEnabled = false;
                 // Pobierz asynchronicznie listę wyników
                 ListaPlikow lista = await Rob(adresStrony.Text);
 
@@ -97,6 +98,7 @@ namespace Projekt
                     foreach (Plik p in lista)
                         listaPlikow.Add(p);
                 }
+                buttonZnajdz.IsEnabled = true;
             }
         }
         
@@ -215,7 +217,7 @@ namespace Projekt
             listaPlikow.Clear();
             adresStrony.Text = "";
             pobierzWszystkie.IsEnabled = false;
-            buttonZnajdz.IsEnabled = false;
+            buttonZnajdz.IsEnabled = true;
         }
 
         /// <summary>
